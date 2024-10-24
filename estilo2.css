@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(img/starbucks_fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+main{
+    border: 1px solid black;
+    width: 85%;
+    margin: 20px auto;
+    background-color: white;
+}
+
+header{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    background-color: rgb(9, 90, 56);
+}
+
+#logo img{
+    width: 600px;
+}
+
+
+#menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#menu li{
+    margin: 10px;
+}
+
+#menu li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+#menu li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+#imagen_central{
+    display: flex;
+    justify-content: center;
+}
+
+#imagen_central img{
+    width: 800px;
+    height: 340px;
+}
+
+h2{
+    margin: 9px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    color: rgb(29, 28, 28);
+}
+
+.texto{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.medio{
+    display: flex;
+}
+
+.medio img{
+    width: 250px;
+    height: 220px;
+    margin-right: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+#redes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+    width: 85%;
+}
+
+#redes img{
+    width: 30px;
+    border-radius: 18px;
+    padding: 12px;
+}
+
+#galeria_imagen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+#galeria_imagen img{
+    width: 340px;
+    padding: 8px;
+}
+
+
+.video_descargado{
+    position: relative;
+    padding-bottom:  56.25%; /*16:9*/
+    height: 0;
+}
+
+video{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    width: 90%;
+    height: 90%;
+}
+
+#contenido_videos{
+    margin: 20px;
+}
